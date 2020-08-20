@@ -4,9 +4,9 @@ import os
 
 app = Flask(__name__)
 
-#Dice Main page
+#Main page
 @app.route('/')
-def dice_page():
+def main_page():
 	return render_template('random.html')
 
 #Testing to check if it works

@@ -13,11 +13,11 @@
   <script>
     function getRand()
     {
-      //Get the value of number of sides of the dice
+      //Get the maximum value of the potential random number
       var num = document.getElementById("maxval").value;
-      //Calculate roll
+      //Calculate random number
       var ans = Math.floor((Math.random() * num) + 1);
-      //Print roll
+      //Print random number
       document.getElementById("ans").innerHTML = ans;
     }
   </script>
