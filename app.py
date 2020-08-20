@@ -12,4 +12,4 @@ def main_page():
 #Testing to check if it works
 @app.route('/test')
 def test():
-    return "Frontend Testing Works!"
+    return "Frontend Tsting Works!"
